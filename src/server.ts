@@ -46,7 +46,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
     //Check if the path is valid
     if(!filteredpath){
-      return res.status(400).send("File url is invalid");
+      return res.status(422).send("File url is invalid");
     }
 
       //Delete all files on finish of the response

@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "http://localhost:8082/filteredimage?image_url=https://image.shutterstock.com/shutterstock/photos/1572353167/display_1500/stock-photo-a-lovely-cat-who-is-sleeping-comfortably-1572353167.jpg",
+			"name": "http://image-filter-ifeco-dev.us-east-1.elasticbeanstalk.com/filteredimage?image_url=https://image.shutterstock.com/shutterstock/photos/1572353167/display_1500/stock-photo-a-lovely-cat-who-is-sleeping-comfortably-1572353167.jpg",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -56,7 +56,7 @@
 		{
 			"id": "1df3d31a-de30-494b-a3d0-f1228dd8713c",
 			"key": "HOST",
-			"value": "localhost:8082",
+			"value": "image-filter-ifeco-dev.us-east-1.elasticbeanstalk.com",
 			"type": "string"
 		}
 	]
